@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5CB0F919-2D58-40C7-A45D-D27DB4861868</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ELFDump</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65DF393D-87FB-4388-BA5C-F5B8F4160BB3</key>
+		<string>ssh://github.com/macmade/ELFReader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ELFDump.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65DF393D-87FB-4388-BA5C-F5B8F4160BB3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/macmade/ELFReader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65DF393D-87FB-4388-BA5C-F5B8F4160BB3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65DF393D-87FB-4388-BA5C-F5B8F4160BB3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ELFReader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
