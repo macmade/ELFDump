@@ -1246,7 +1246,6 @@ const char * ELF64_SymbolTableEntryGetBindingString( ELF64_SymbolTableEntryRef s
     }
 }
 
-
 ELF64_Half ELF64_SymbolTableEntryGetSectionTableIndex( ELF64_SymbolTableEntryRef sym )
 {
     if( sym == NULL )
