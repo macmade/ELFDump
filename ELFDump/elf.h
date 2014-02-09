@@ -249,7 +249,6 @@ const char                * ELF64_FileGetNameOfSection( ELF64_FileRef file, ELF6
 const char                * ELF64_FileGetNameOfSectionAtIndex( ELF64_FileRef file, unsigned int index );
 ELF64_UChar               * ELF64_FileGetDataForSection( ELF64_FileRef file, ELF64_SectionHeaderEntryRef section );
 ELF64_UChar               * ELF64_FileGetDataForSectionAtIndex( ELF64_FileRef file, unsigned int index );
-unsigned int                ELF64_FileGetSymbolTableEntryCountForSection( ELF64_FileRef file, ELF64_SectionHeaderEntryRef section );
 ELF64_SymbolTableEntryRef   ELF64_FileGetSymbolTableEntryForSection( ELF64_FileRef file, ELF64_SectionHeaderEntryRef section, unsigned int index );
 const char                * ELF64_FileGetSymbolTableEntryNameForSection( ELF64_FileRef file, ELF64_SymbolTableEntryRef sym, ELF64_SectionHeaderEntryRef section );
 ELF64_SectionHeaderEntryRef ELF64_FileGetStringTableHeaderEntry( ELF64_FileRef file );
