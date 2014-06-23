@@ -67,7 +67,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Volumes/Brain/Documents/Development/GitHub/XEOS/build/x86_64/core/bin/XEOS64.ELF"
+            argument = "/Users/macmade/Documents/Macmade/Development/GitHub/XEOS/build/x86_64/bin/XEOS64.ELF"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

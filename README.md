@@ -1,6 +1,8 @@
 ELFDump
 =======
 
+[![Build Status](https://travis-ci.org/macmade/ELFDump.svg?branch=master)](https://travis-ci.org/macmade/ELFDump)
+
 About
 -----
 
