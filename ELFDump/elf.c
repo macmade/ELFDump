@@ -123,7 +123,7 @@ struct __ELF64_File
     struct __ELF64_Header header;
 };
 
-ELF64_FileRef ELF64_ReadFromData( const char * data )
+ELF64_FileRef ELF64_ReadFromData( char * data )
 {
     return ( ELF64_FileRef )( ( void * )data );
 }
@@ -1285,7 +1285,7 @@ unsigned long ELF64_Hash( const char * name )
     
     while( *( name ) )
     {
-        h = ( h << 4 ) + *( ( unsigned char * )name++ );
+        h = ( h << 4 ) + *( ( const unsigned char * )name++ );
         
         if( ( g = h & 0xF0000000 ) )
         {

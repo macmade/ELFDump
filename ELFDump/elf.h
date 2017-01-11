@@ -240,7 +240,7 @@ typedef enum
 }
 ELF64_SymbolBinding;
 
-ELF64_FileRef               ELF64_ReadFromData( const char * data );
+ELF64_FileRef               ELF64_ReadFromData( char * data );
 bool                        ELF64_FileIsValid( ELF64_FileRef file );
 ELF64_HeaderRef             ELF64_FileGetHeader( ELF64_FileRef file );
 ELF64_ProgramHeaderEntryRef ELF64_FileGetProgramHeaderEntry( ELF64_FileRef file, unsigned int index );
